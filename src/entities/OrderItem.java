@@ -22,10 +22,6 @@ public class OrderItem {
         return price;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
-    }
-
     public Double subTotal(int quantity, double price) {
         return quantity * price;
     }
